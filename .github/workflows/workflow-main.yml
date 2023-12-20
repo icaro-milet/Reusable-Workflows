@@ -10,7 +10,7 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-    uses: ./.github/workflows/workflow-B.yml@main
+    uses: ./.github/workflows/workflow-B.yml@v1
     with:
       config-path: .github/labeler.yml
     secrets:
